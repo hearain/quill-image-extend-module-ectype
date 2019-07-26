@@ -1,5 +1,5 @@
 {
-  "name": "quill-image-extend-module",
+  "name": "quill-image-extend-module-ectype",
   "version": "1.1.2",
   "description": "plugin for vue-quill-editor to upload image",
   "main": "index.js",
@@ -16,10 +16,10 @@
     "quill-image",
     "drop"
   ],
-  "author": "nextboy",
+  "author": "nextboy,Yvan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NextBoy/quill-image-extend-module/issues"
+    "url": "https://github.com/NextBoy/quill-image-extend-module-ectype/issues"
   },
-  "homepage": "https://github.com/NextBoy/quill-image-extend-module#readme"
+  "homepage": "https://github.com/NextBoy/quill-image-extend-module-ectype#readme"
 }
