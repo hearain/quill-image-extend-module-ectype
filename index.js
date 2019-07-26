@@ -78,10 +78,12 @@ export class ImageExtend {
                     }
                     return
                 }
-                if (this.config.action) {
-                    this.uploadImg()
-                } else {
-                    this.toBase64()
+                if (this.config.copyable) {
+                    if (this.config.action) {
+                        self.uploadImg()
+                    } else {
+                        self.toBase64()
+                    }
                 }
             }
         }
@@ -103,10 +105,12 @@ export class ImageExtend {
             return
         }
         self.file = e.dataTransfer.files[0]; // 获取到第一个上传的文件对象
-        if (this.config.action) {
-            self.uploadImg()
-        } else {
-            self.toBase64()
+        if (this.config.dragable) {
+            if (this.config.action) {
+                self.uploadImg()
+            } else {
+                self.toBase64()
+            }
         }
     }
 
