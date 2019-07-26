@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NextBoy/quill-image-extend-module.git"
+    "url": "git+https://github.com/hearain/quill-image-extend-module-ectype.git"
   },
   "keywords": [
     "quill",
@@ -19,7 +19,7 @@
   "author": "nextboy,Yvan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NextBoy/quill-image-extend-module-ectype/issues"
+    "url": "https://github.com/hearain/quill-image-extend-module-ectype/issues"
   },
-  "homepage": "https://github.com/NextBoy/quill-image-extend-module-ectype#readme"
+  "homepage": "https://github.com/hearain/quill-image-extend-module-ectype#readme"
 }
