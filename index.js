@@ -9,7 +9,8 @@ export const QuillWatch = {
             this.watcher[imageExtendId] = ImageExtend
         }
     },
-    emit: function (activeId, type = 1) {  // 事件发射触发
+    emit: function (activeId, type) {  // 事件发射触发
+        type = type||1
         this.active = this.watcher[activeId]
         if (type === 1) {
             imgHandler()
@@ -26,7 +27,8 @@ export class ImageExtend {
      * @param config {Object} options
      * config  keys: action, headers, editForm start end error  size response
      */
-    constructor(quill, config = {}) {
+    constructor(quill, config) {
+        config = config||{}
         this.id = Math.random()
         this.quill = quill
         this.quill.id = this.id
